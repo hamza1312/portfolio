@@ -17,6 +17,6 @@ export function Time() {
     }, 1000)
   }, [])
   return (
-    <span className="p-1.5 text-sm rounded-xl border select-none">{time}</span>
+    <a className="badge" target="_blank" href="https://time.is/Casablanca">{time}</a>
   )
 }

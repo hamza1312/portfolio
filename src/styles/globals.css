@@ -7,6 +7,9 @@
   .link-primary {
     @apply outline-none hover:text-blue-600 focus:text-blue-600 focus:outline-none transition-all duration-75 ease-in-out text-lg 
   }
+  .badge {
+    @apply p-1.5 text-sm rounded-xl border select-none outline-none  focus:outline-none focus:ring
+  }
 }
 
 @layer base {
