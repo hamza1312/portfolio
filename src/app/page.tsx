@@ -36,7 +36,7 @@ export default async function Home() {
         </div>
 
         <Typography variant='h4' className="py-6 dark:text-blue-400 text-blue-600">Socials</Typography>
-        <div className="flex flex-row gap-4">
+        <div className="flex lg:flex-row flex-col gap-4">
           <a href="https://x.com/oubranode" target="_blank" className="link-p flex flex-row items-center gap-1">follow me at twitter <ExternalLink size='15' /> </a>
           <a href="https://github.com/hamza1312" target="_blank" className="link-p flex flex-row items-center gap-1">check out my github <ExternalLink size='15' /> </a>
         </div>
