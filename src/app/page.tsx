@@ -19,11 +19,11 @@ export default async function Home() {
           </CardHeader>
           <CardContent>
             <ul className="space-y-1">
-              <Listy><a href="https://typescriptlang.org" className="link-primary text-base" target="_blank">Typescript</a></Listy>
-              <Listy><a href="https://nextjs.org" className="link-primary text-base" target="_blank">Next.js</a></Listy>
-              <Listy><a href="https://trpc.io" className="link-primary text-base" target="_blank">tRPC</a></Listy>
-              <Listy><a href="https://tailwindcss.com" className="link-primary text-base" target="_blank">Tailwind</a></Listy>
-              <Listy><a href="https://rust-lang.org" className="link-primary text-base" target="_blank">Rust</a></Listy>
+              <Listy><a href="https://typescriptlang.org" className="link-p text-base" target="_blank">Typescript</a></Listy>
+              <Listy><a href="https://nextjs.org" className="link-p text-base" target="_blank">Next.js</a></Listy>
+              <Listy><a href="https://trpc.io" className="link-p text-base" target="_blank">tRPC</a></Listy>
+              <Listy><a href="https://tailwindcss.com" className="link-p text-base" target="_blank">Tailwind</a></Listy>
+              <Listy><a href="https://rust-lang.org" className="link-p text-base" target="_blank">Rust</a></Listy>
              <p className="italic text-sm">and more like (Python, Prisma, Drizzle, SQL based databases, ...)</p>
             </ul>
           </CardContent>
@@ -37,8 +37,8 @@ export default async function Home() {
 
         <Typography variant='h4' className="py-6 dark:text-blue-400 text-blue-600">Socials</Typography>
         <div className="flex flex-row gap-4">
-          <a href="https://x.com/oubranode" target="_blank" className="link-primary flex flex-row items-center gap-1">follow me at twitter <ExternalLink size='15' /> </a>
-          <a href="https://github.com/hamza1312" target="_blank" className="link-primary flex flex-row items-center gap-1">check out my github <ExternalLink size='15' /> </a>
+          <a href="https://x.com/oubranode" target="_blank" className="link-p flex flex-row items-center gap-1">follow me at twitter <ExternalLink size='15' /> </a>
+          <a href="https://github.com/hamza1312" target="_blank" className="link-p flex flex-row items-center gap-1">check out my github <ExternalLink size='15' /> </a>
         </div>
      </div>
     </div>
