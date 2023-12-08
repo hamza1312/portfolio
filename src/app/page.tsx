@@ -22,7 +22,7 @@ export default async function Home() {
       <div className="pt-10">
 
         <Typography variant='h2'>hey, I'm hamza 👋</Typography>
-        <Typography variant='p'>My full name is hamza oubrahim, I'm a software engineer 🤓, mostly do web dev with <a className="badge" target="_blank" href="https://nextjs.org">NextJS</a>, sometimes I do some designs as well, I'm currently <span className="text-blue-600 dark:text-blue-400">{Math.round((new Date().getTime() - new Date('2009-08-08').getTime()) / (365.25 * 24 * 60 * 60 * 1000))}</span> years old, from <span className="text-blue-600 dark:text-blue-400">Morocco</span>, It's <Time /> for me currently, always aiming to be a better person.</Typography>
+        <Typography variant='p'>My full name is hamza oubrahim, I'm a software engineer 🤓, I mostly do web dev with <a className="badge" target="_blank" href="https://nextjs.org">NextJS</a>, sometimes I do some designs as well, from <span className="text-blue-600 dark:text-blue-400">Morocco</span>, It's <Time /> for me currently, always aiming to be a better person.</Typography>
         <Card className="rounded-xl mt-6">
           <CardHeader>
             <CardTitle className="tracking-tight text-xl">Skills</CardTitle>

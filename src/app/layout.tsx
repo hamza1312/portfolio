@@ -23,13 +23,13 @@ export const metadata = {
   },
   openGraph: {
     title: 'Hamza Oubrahim',
-    description: '14 | Web developer',
+    description: 'Web developer',
     url: 'https://oubra.vercel.app',
     siteName: 'Hamza Oubrahim',
     locale: 'en_US',
     type: 'website',
   },
-  description: "14 | Web developer",
+  description: "Web developer",
   twitter: {
     title: 'Hamza Oubrahim',
     card: 'summary_large_image',
