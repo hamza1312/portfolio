@@ -6,6 +6,7 @@ import { TRPCReactProvider } from "~/trpc/react";
 import { GeistSans } from 'geist/font/sans';
 import { ModeToggle } from "~/components/mode-toggle";
 import Link from "next/link";
+import { Separator } from "@/components/ui/separator";
 
 
 
@@ -64,6 +65,8 @@ export default function RootLayout({
               <ModeToggle />
 
             </div>
+
+            <Separator />
             {children}
           </ThemeProvider>
         </TRPCReactProvider>
