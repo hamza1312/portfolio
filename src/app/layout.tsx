@@ -4,6 +4,8 @@ import { cookies } from "next/headers";
 import { ThemeProvider } from "~/components/theme-provider";
 import { TRPCReactProvider } from "~/trpc/react";
 import { GeistSans } from 'geist/font/sans';
+import { ModeToggle } from "~/components/mode-toggle";
+import Link from "next/link";
 
 
 
@@ -45,13 +47,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className} dark:text-white`}>
+      <body className={`${GeistSans.className} dark:text-white antialiased lg:w-[50%] lg:mx-auto h-screen flex flex-col p-6 overflow-y-auto `}>
         <TRPCReactProvider cookies={cookies().toString()}>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
             enableSystem
           >
+
+            <div className="w-full flex flex-row justify-between items-center pb-4">
+              <div className="flex flex-row gap-6">
+                <Link href="/" className={`link-primary`}>about</Link>
+                <Link href="/blogs" className={`link-primary`} prefetch>blogs</Link>
+              </div>
+
+              <ModeToggle />
+
+            </div>
             {children}
           </ThemeProvider>
         </TRPCReactProvider>
