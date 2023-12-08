@@ -58,7 +58,7 @@ export default function RootLayout({
             <div className="w-full flex flex-row justify-between items-center pb-4">
               <div className="flex flex-row gap-6">
                 <Link href="/" className={`link-primary`}>about</Link>
-                <Link href="/blogs" className={`link-primary`} prefetch>blogs</Link>
+                <Link href="/blogs" className={`link-primary`} >blogs</Link>
               </div>
 
               <ModeToggle />
