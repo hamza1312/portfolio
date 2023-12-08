@@ -49,7 +49,7 @@ export default function RootLayout({
         <TRPCReactProvider cookies={cookies().toString()}>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="dark"
             enableSystem
           >
             {children}

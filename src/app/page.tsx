@@ -11,7 +11,6 @@ export default async function Home() {
       <div className="w-full flex flex-row justify-between items-center pb-4">
         <div className="flex flex-row gap-6">
           <a href="#about" className="link-primary">about</a>
-          <a href="#socials" className="link-primary">socials</a>
           <a href="#projects" className="link-primary">projects</a>
           <a href="#blogs" className="link-primary">blogs</a>
         </div>
@@ -39,7 +38,6 @@ export default async function Home() {
             </ul>
           </CardContent>
         </Card>
-
 
       </div>
     </div>
