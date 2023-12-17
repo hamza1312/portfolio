@@ -6,6 +6,7 @@ import { ExternalLink } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Listy } from "~/components/listy";
 import { Project } from "~/components/project";
+
 export default async function Home() {
   return (
     <div className="pb-[60px]">

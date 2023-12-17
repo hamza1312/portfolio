@@ -26,9 +26,10 @@ export const metadata = {
   },
   openGraph: {
     title: 'Hamza Oubrahim',
-    description: 'Web developer',
-    url: 'https://oubra.vercel.app',
+    description: 'Hamza - Web developer',
+    url: 'https://oubra.me',
     siteName: 'Hamza Oubrahim',
+    images: 'https://cdn.discordapp.com/attachments/891814861305176065/1185977075203584153/og.png?ex=65919239&is=657f1d39&hm=0c380eac8b9a28bac33f2d2f75d29e691718cf094f5817c6b07c5b8498ba96df&',
     locale: 'en_US',
     type: 'website',
   },
@@ -37,7 +38,6 @@ export const metadata = {
     title: 'Hamza Oubrahim',
     card: 'summary_large_image',
   },
-
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
@@ -54,7 +54,7 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="dark"
             enableSystem
-          >
+           >
 
             <div className="w-full flex flex-row justify-between items-center pb-4">
               <div className="flex flex-row gap-6">
