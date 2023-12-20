@@ -12,7 +12,8 @@ export default async function Home() {
     <div className="pb-[60px]">
       <div className="pt-10">
         <Typography variant='h2'>hey, I'm hamza 👋</Typography>
-        <Typography variant='p'>My full name is hamza oubrahim, I'm a software engineer 🤓, I mostly do web dev with <a className="badge" target="_blank" href="https://nextjs.org">NextJS</a>, sometimes I do some designs as well, from <span className="text-blue-600 dark:text-blue-400">Morocco</span>, It's <Time /> for me currently, always aiming to be a better person.</Typography>
+
+        <Typography variant='p'>My full name is Hamza Oubrahim and I'm from <span className="text-blue-600 dark:text-blue-400">Morocco</span>, I'm a software engineer, I mainly use <a className="badge" target="_blank" href="https://nextjs.org">NextJS</a> for web dev, Sometimes I design things too, It's currently <Time />, I'm always aiming at developing myself and being a better person.</Typography>
         <Card className="rounded-xl mt-6">
           <CardHeader>
             <CardTitle className="tracking-tight text-xl">Skills</CardTitle>
